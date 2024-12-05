@@ -3,29 +3,83 @@
     padding: 0;
     margin: 0;
 }
-.attribution { 
+:root{
+   --primary-color1:hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+   --primary-color2: hsl(0, 100%, 66%);
+   --natural-color1:hsl(0, 0%, 100%);
+   --natural-color2:hsl(270, 3%, 87%);
+   --natural-color3: hsl(279, 6%, 55%);
+   --natural-color4: hsl(278, 68%, 11%);
+}
+
+body {
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+.background-1{
+    background-image: url("./images/bg-main-desktop.png");
+    width:60%;
+    height:1000px;
+    position: relative;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-logo{
+  position: absolute;
+  left:20%;
+  bottom: 10px;
+
+}
+.card-front{
+   width:50%;
+   height: 250px;
+
+}
+.card-back {
+    width:50%;
+   height: 250px;
+}
+.content {
+
+}
+
+@media (max-width:375px){
+    .background-2 {
+        background-image: url("./images/bg-main-mobile.png");
+        width:100%;
+    }
+}
+/* ## Colors
+
+### Primary
+
+- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
+- Red (input errors): hsl(0, 100%, 66%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light grayish violet: hsl(270, 3%, 87%)
+- Dark grayish violet: hsl(279, 6%, 55%)
+- Very dark violet: hsl(278, 68%, 11%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
+- Weights: 500 */
+/* .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
- }
-body {
-    background-color: antiquewhite;
-}
-@media (max-width:1440px){
-    .background{
-        background-image: url("./images/bg-main-desktop.png");
-        width:60%;
-        height:2000px;
-
-    }
-}
-@media (max-width:375px){
-    .background {
-        background-image: url("./images/bg-main-mobile.png");
-        width:100%;
-        min-height:1400px;
-
-    }
-}
+ } */

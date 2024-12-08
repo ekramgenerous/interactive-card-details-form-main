@@ -13,45 +13,52 @@
 }
 
 body {
-    background-color: antiquewhite;
-    font-size: 18px;
-}
-.background-1{
     background-image: url("./images/bg-main-desktop.png");
-    width:60%;
-    height:1000px;
     position: relative;
+    width: 500px;
+    min-height:100%;
+    background-repeat: no-repeat;
 }
 .card-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 200px;
 }
 .card-logo{
-  position: absolute;
-  left:20%;
-  bottom: 10px;
+    position: absolute;
+    bottom: 82%;
+    margin-left: 23px;
 
 }
 .card-front{
-   width:50%;
-   height: 250px;
-
+    width: 360px;
+    height: 236px;
+    margin-top: 39px;
+    margin-left: 0px;
+    padding-top: 0px;
 }
 .card-back {
-    width:50%;
-   height: 250px;
+    width: 360px;
+    height: 236px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-top: 4px;
 }
 .content {
+   
+}
+.pass-w {
 
 }
-
-@media (max-width:375px){
+/* @media (max-width:375px){
     .background-2 {
         background-image: url("./images/bg-main-mobile.png");
         width:100%;
     }
-}
+} */
 /* ## Colors
 
 ### Primary

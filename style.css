@@ -48,7 +48,28 @@ body {
     padding-top: 4px;
 }
 .content {
-   
+    background-color: transparent;
+    position: absolute;
+    top: 185px;
+    left: 212px;
+    color:var(--natural-color1);
+}
+.content p {
+    font-size: 22px;
+}
+.content p ,span {
+    margin-top: -16px;
+    padding-top: 27px;
+    margin-left: 7px; 
+}
+.name {
+  font-size:13px;
+  position: absolute;
+}
+.year {
+   font-size: 13px;
+   position: absolute;
+   left:280px;
 }
 .pass-w {
 

@@ -72,7 +72,13 @@ body {
    left:280px;
 }
 .pass-w {
-
+    position: absolute;
+    top: 25rem;
+    left: 36rem;
+    padding-top: 21px;
+}
+.confirm {
+    
 }
 /* @media (max-width:375px){
     .background-2 {

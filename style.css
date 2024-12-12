@@ -4,7 +4,8 @@
     margin: 0;
 }
 :root{
-   --primary-color1:hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+   /* --primary-color1:hsl(249, 99%, 64%) to hsl(278, 94%, 30%); */
+   --primary-color1:hsl(249, 99%, 64%);
    --primary-color2: hsl(0, 100%, 66%);
    --natural-color1:hsl(0, 0%, 100%);
    --natural-color2:hsl(270, 3%, 87%);
@@ -86,14 +87,17 @@ body {
 
 
 .confirm {
-    background-color:var(--primary-color2);
-    color:var(--natural-color1);
+    background-color: var(--primary-color1);
+   color:var(--natural-color1);
     width:260px;
     height:40px;
     border-color: transparent;
     margin-top: 20px;
     margin-right:50px;
     border-radius: 15px;
+}
+label{
+    color:var(--primary-color1);
 }
 /* @media (max-width:375px){
     .background-2 {
